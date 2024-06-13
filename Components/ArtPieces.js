@@ -6,7 +6,7 @@ export default function ArtPieces({ pieces }) {
       {pieces.map((piece) => (
         <>
           <ArtPiecePreview key={piece.slug} piece={piece} />
-          <Link href={`./pages/art-pieces/${piece.slug}`}>
+          <Link href={`/art-pieces/${piece.slug}`}>
             <h3> Title:{piece.name}</h3>
           </Link>
         </>

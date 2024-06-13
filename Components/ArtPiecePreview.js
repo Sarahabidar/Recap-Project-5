@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function ArtPiecePreview({ piece, key }) {
   return (
-    <li key={key}>
+    <li key={piece.slug}>
       <Image
         src={piece.imageSource}
         alt={piece.title}
