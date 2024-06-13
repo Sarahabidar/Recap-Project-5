@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
     "https://example-apis.vercel.app/api/art",
     fetcher
   );
-
+  console.log(data);
   return (
     <>
       <Layout />
