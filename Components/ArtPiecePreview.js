@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-export default function ArtPiecePreview({ piece, key }) {
+export default function ArtPiecePreview({ piece }) {
   return (
     <li key={piece.slug}>
       <Image
